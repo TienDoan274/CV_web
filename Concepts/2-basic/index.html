@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tien's CV web</title>
+
+    <!-- Add opencv -->
+    <script async src="..\..\Resources\opencv.js" onload="openCvReady()"></script>
+    <!-- Link đến css file -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Add Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+    <!-- Add fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,400;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Main Page(include everything) -->
+    <div class="main-page">
+        
+        <div class="side-line"></div>
+        
+        <div class="side-bar">
+            <span class="circle"><i class="material-icons" style="font-size:36px; color:white"> settings</i></span>
+            <span class="circle"><i class="material-icons" style="font-size:36px; color:white"> info</i></span>
+            <span class="circle"><i class="material-icons" style="font-size:36px; color:white"> visibility</i></span>
+            <span class="circle"><i class="material-icons" style="font-size:36px; color:white"> auto_fix_normal</i></span>
+            <span class="circle blue_circle"><i class="material-icons" style="font-size:36px; color:white"> videocam   </i></span>
+
+        </div>
+        
+        <div class="right-panel">
+            <div class="header">
+                <div class="empty-side"></div>
+                <h1>CV Web</h1>
+                <div class="logo-container"><img src="..\..\Resources\Template\320588329_721910299139328_4043692353473640157_n.jpg" width=50px></div>
+            </div>
+
+            <div class="tablet-container">
+                <img id="table-img" src="..\..\Resources\Template\tablet.png" height=400px width=750px alt="">
+                <canvas id="main-canvas" width="960" height="450">
+                    <img id="img-main" 
+                src="..\..\Resources\Template\th.jpg"
+                ,width="400", height="300" alt="">
+            </canvas>
+            </div>
+        </div>
+
+    </div>
+    <!-- link đến js file -->
+    <script src="main.js"></script>
+
+</body>
+</html>
